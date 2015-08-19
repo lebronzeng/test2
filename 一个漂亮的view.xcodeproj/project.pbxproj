@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F69DED8F1B84E67B00E59C37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69DED8E1B84E67B00E59C37 /* main.m */; };
-		F69DED921B84E67B00E59C37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69DED911B84E67B00E59C37 /* AppDelegate.m */; };
-		F69DED951B84E67B00E59C37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69DED941B84E67B00E59C37 /* ViewController.m */; };
-		F69DED981B84E67B00E59C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69DED961B84E67B00E59C37 /* Main.storyboard */; };
 		F69DED9A1B84E67B00E59C37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69DED991B84E67B00E59C37 /* Images.xcassets */; };
 		F69DED9D1B84E67B00E59C37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DED9B1B84E67B00E59C37 /* LaunchScreen.xib */; };
 		F69DEDA91B84E67B00E59C37 /* _____viewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69DEDA81B84E67B00E59C37 /* _____viewTests.m */; };
@@ -33,10 +30,6 @@
 		F69DED8D1B84E67B00E59C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F69DED8E1B84E67B00E59C37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F69DED901B84E67B00E59C37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F69DED911B84E67B00E59C37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F69DED931B84E67B00E59C37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F69DED941B84E67B00E59C37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F69DED971B84E67B00E59C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F69DED991B84E67B00E59C37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F69DED9C1B84E67B00E59C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F69DEDA21B84E67B00E59C37 /* 一个漂亮的viewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "一个漂亮的viewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,10 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				F69DED901B84E67B00E59C37 /* AppDelegate.h */,
-				F69DED911B84E67B00E59C37 /* AppDelegate.m */,
-				F69DED931B84E67B00E59C37 /* ViewController.h */,
-				F69DED941B84E67B00E59C37 /* ViewController.m */,
-				F69DED961B84E67B00E59C37 /* Main.storyboard */,
 				F69DEDB21B84E6FF00E59C37 /* XGView.h */,
 				F69DEDB31B84E6FF00E59C37 /* XGView.m */,
 				F69DEDB51B84E96B00E59C37 /* beautiful.png */,
@@ -208,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69DEDB61B84E96B00E59C37 /* beautiful.png in Resources */,
-				F69DED981B84E67B00E59C37 /* Main.storyboard in Resources */,
 				F69DED9D1B84E67B00E59C37 /* LaunchScreen.xib in Resources */,
 				F69DED9A1B84E67B00E59C37 /* Images.xcassets in Resources */,
 			);
@@ -228,9 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69DED951B84E67B00E59C37 /* ViewController.m in Sources */,
 				F69DEDB41B84E6FF00E59C37 /* XGView.m in Sources */,
-				F69DED921B84E67B00E59C37 /* AppDelegate.m in Sources */,
 				F69DED8F1B84E67B00E59C37 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F69DED961B84E67B00E59C37 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F69DED971B84E67B00E59C37 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F69DED9B1B84E67B00E59C37 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,6 +400,7 @@
 				F69DEDAE1B84E67B00E59C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F69DEDAF1B84E67B00E59C37 /* Build configuration list for PBXNativeTarget "一个漂亮的viewTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +409,7 @@
 				F69DEDB11B84E67B00E59C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
