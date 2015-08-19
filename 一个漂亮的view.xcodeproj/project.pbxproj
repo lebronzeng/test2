@@ -14,6 +14,8 @@
 		F69DED9A1B84E67B00E59C37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69DED991B84E67B00E59C37 /* Images.xcassets */; };
 		F69DED9D1B84E67B00E59C37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69DED9B1B84E67B00E59C37 /* LaunchScreen.xib */; };
 		F69DEDA91B84E67B00E59C37 /* _____viewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69DEDA81B84E67B00E59C37 /* _____viewTests.m */; };
+		F69DEDB41B84E6FF00E59C37 /* XGView.m in Sources */ = {isa = PBXBuildFile; fileRef = F69DEDB31B84E6FF00E59C37 /* XGView.m */; };
+		F69DEDB61B84E96B00E59C37 /* beautiful.png in Resources */ = {isa = PBXBuildFile; fileRef = F69DEDB51B84E96B00E59C37 /* beautiful.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		F69DEDA21B84E67B00E59C37 /* 一个漂亮的viewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "一个漂亮的viewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69DEDA71B84E67B00E59C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F69DEDA81B84E67B00E59C37 /* _____viewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____viewTests.m"; sourceTree = "<group>"; };
+		F69DEDB21B84E6FF00E59C37 /* XGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGView.h; sourceTree = "<group>"; };
+		F69DEDB31B84E6FF00E59C37 /* XGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGView.m; sourceTree = "<group>"; };
+		F69DEDB51B84E96B00E59C37 /* beautiful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beautiful.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				F69DED931B84E67B00E59C37 /* ViewController.h */,
 				F69DED941B84E67B00E59C37 /* ViewController.m */,
 				F69DED961B84E67B00E59C37 /* Main.storyboard */,
+				F69DEDB21B84E6FF00E59C37 /* XGView.h */,
+				F69DEDB31B84E6FF00E59C37 /* XGView.m */,
+				F69DEDB51B84E96B00E59C37 /* beautiful.png */,
 				F69DED991B84E67B00E59C37 /* Images.xcassets */,
 				F69DED9B1B84E67B00E59C37 /* LaunchScreen.xib */,
 				F69DED8C1B84E67B00E59C37 /* Supporting Files */,
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69DEDB61B84E96B00E59C37 /* beautiful.png in Resources */,
 				F69DED981B84E67B00E59C37 /* Main.storyboard in Resources */,
 				F69DED9D1B84E67B00E59C37 /* LaunchScreen.xib in Resources */,
 				F69DED9A1B84E67B00E59C37 /* Images.xcassets in Resources */,
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69DED951B84E67B00E59C37 /* ViewController.m in Sources */,
+				F69DEDB41B84E6FF00E59C37 /* XGView.m in Sources */,
 				F69DED921B84E67B00E59C37 /* AppDelegate.m in Sources */,
 				F69DED8F1B84E67B00E59C37 /* main.m in Sources */,
 			);
