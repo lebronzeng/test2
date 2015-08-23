@@ -16,15 +16,13 @@
     CADisplayLink * link = [CADisplayLink displayLinkWithTarget:self selector:@selector(setNeedsDisplay)];
     [link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
 }
+-(void)bug
+{
+    NSLog(@"bug修复一半了,哈哈");
+}
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    _y += 5;
-    [_image drawAtPoint:CGPointMake(0, _y)];
-    if (_y>500) {
-        _y = 0;
-    }
-}
+
 
 
 @end
